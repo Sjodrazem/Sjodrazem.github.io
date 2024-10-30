@@ -94,7 +94,7 @@
         },
         onEachFeature: function(feature, layer) {
           layer.on('click', function(e) {
-            alert("Material: " + feature.properties.TYPE_OF_WA);
+            alert("Zone Name: " + feature.properties.NAME);
           });
         }
       }).addTo(map);
